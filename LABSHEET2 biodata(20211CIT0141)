@@ -1,1 +1,53 @@
-
+<html>
+<head>
+<title>BIODATA</title>
+<style>
+h1 {text-align: center;}
+h2 {text-align: left;}
+p {text-align: left;}
+h3 {text-align: left;}
+h4 {text-align: center;}
+#grad1 {
+  height: 800px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#FF5F6D,#FFC371);
+}
+</style>
+</head>
+<body bgcolor="black"><font color="white">
+<h1>BIODATA<h1>
+<hr>
+<body>
+<div id="grad1"> <font size=5><font color="black">
+<img src="C:\Users\HP\Desktop\e6b6cd97-dbe9-457d-8e52-44bee9a57768.jpg"align="right" height=400 width=300 1px>
+<h2>Personal details<h2>
+<p style="font-size:22px;"> I am Keerthana R </p>
+<p  style="font-size:22px;"> I was born in Bangalore </p>
+<p  style="font-size:22px;"> My hobbies are Reading books and listening to music </p>
+<p  style="font-size:22px;"> I like to read thriller and horror novels specially Chetan bhagat books </p>
+<p  style="font-size:22px;"> I am currently pursuing my B.Tech in Presidency University </p>
+<br>
+<h3>Educational qualification</h3>
+<table style="width:50% "border=3>
+<tr>
+<th font-size:12px>School Name</th>
+<th>Grade level</th>
+<th>Percentage scored</th>
+</tr>
+<tr>
+<th>ST Marys High School</th>
+<th>High School</th>
+<th>98%</th>
+</tr>
+<tr>
+<th>MES pu college</th>
+<th>Pre UNiversity</th>
+<th>95%</th>
+</tr>
+<tr>
+<th>Presidency University</th>
+<th>Under Graduate</th>
+<th>Till now 8.6 Cgpa</th>
+</tr>
+</body>
+</html>
