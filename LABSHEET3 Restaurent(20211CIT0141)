@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Restaurant Website</title>   
+</head>
+<style>
+h1 {text-align: center;}
+#grad1 {
+  height: 80px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red,yellow);
+}
+</style>
+<body><div id="grad1">
 
+    <header>
+        <h1> Welcome to Darjeeling calling Restaurant </h1>
+    </header>
+
+    <nav>
+        <a href="#About">About Us</a> |
+        <a href="#Menu">Menu</a> |
+        <a href="#Contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2 style="font-family:Forte;">About Us</h2>
+        <p style="font-family:Arial;">Welcome to our family owned restaurant! We specialize in serving the authentic and delicious dishes of Darjeeling in a very     cozy atmosphere.</p>
+        <img src="C:\Users\HP\Desktop\download.jpg" alt="Restaurant Image" align="middle">
+    </section>
+
+ 
+    
+
+    <section id="menu">
+        <h2 style="font-family:Forte;">Menu</h2>
+        <p>Here's a selection of our delicious dishes:</p>
+        <img src="C:\Users\HP\Desktop\dal-bhat-Nepalese-food.jpg" alt="Thali image" align="right" width=300 height=300>
+        <img src="C:\Users\HP\Desktop\download (1).jpg" alt="Momo image" align="middle" width=300 height=300>
+        <ul>
+            <li>Momos:     INR 100-200</li>
+        </ul> 
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For reservations or inquiries, please contact us:</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Restaurant Name. All rights reserved.
+    </footer>
+</body>
+</html>
