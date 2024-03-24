@@ -1,22 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Restaurant Website</title>   
+    <title>Restaurant Menu</title>
+    <style>
+        /* Basic CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: cyan;
+            color: #333;
+            padding: 10px 20px;
+            text-align: center;
+       
+        }
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        .dish {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .dish img {
+            float: left;
+            margin-right: 10px;
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .dish h3 {
+            margin-top: 0;
+        }
+        .dish p {
+            margin-bottom: 5px;
+        }
+        .dish button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-<style>
-h1 {text-align: center;}
-#grad1 {
-  height: 80px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(red,yellow);
-}
-</style>
-<body><div id="grad1">
-
+<body>
     <header>
-        <h1> Welcome to Darjeeling calling Restaurant </h1>
+        <h1>Welcome to Darjeeling calling Restaurant</h1>
     </header>
 
+     
     <nav>
         <a href="#About">About Us</a> |
         <a href="#Menu">Menu</a> |
@@ -24,33 +84,64 @@ h1 {text-align: center;}
     </nav>
 
     <section id="about">
-        <h2 style="font-family:Forte;">About Us</h2>
+        <h2 style="font-family:Arial Black;">About Us</h2>
         <p style="font-family:Arial;">Welcome to our family owned restaurant! We specialize in serving the authentic and delicious dishes of Darjeeling in a very     cozy atmosphere.</p>
-        <img src="C:\Users\HP\Desktop\download.jpg" alt="Restaurant Image" align="middle">
-    </section>
 
+    
+    <section>
+        <div class="Restuarent">
+            <img src="C:\Users\HP\Desktop\outdoor-seating.jpg"" alt="Restuarent image" width=600 height=400>
+             <img src="C:\Users\HP\Desktop\Glenary-Restaurant.jpg"" alt="Restuarent2 image" align="right" width=600 height=400>
+            
+        </div>
+      </section>
  
     
-
     <section id="menu">
-        <h2 style="font-family:Forte;">Menu</h2>
+        <h2 style="font-family:Arial Black;">Menu</h2>
         <p>Here's a selection of our delicious dishes:</p>
-        <img src="C:\Users\HP\Desktop\dal-bhat-Nepalese-food.jpg" alt="Thali image" align="right" width=300 height=300>
-        <img src="C:\Users\HP\Desktop\download (1).jpg" alt="Momo image" align="middle" width=300 height=300>
-        <ul>
-            <li>Momos:     INR 100-200</li>
-        </ul> 
+    </section>
+    <section>
+        <div class="dish">
+            <img src="C:\Users\HP\Desktop\dal-bhat-Nepalese-food.jpg" alt="Dish 1">
+            <h3>Traditional Nepal Thali</h3>
+            <p>Price: $10.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="dish">
+            <img src="C:\Users\HP\Desktop\download (1).jpg" alt="Dish 2">
+            <h3>Veg Momos</h3>
+            <p>Price: $12.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="dish">
+            <img src="C:\Users\HP\Desktop\download (2).jpg"alt="Dish 3">
+            <h3>Aloo Dum</h3>
+            <p>Price: $8.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+       <div class="dish">
+            <img src="C:\Users\HP\Desktop\20180713_105617.jpg" (2).jpg"alt="Dish 4">
+            <h3>Darjeeling Tea</h3>
+            <p>Price: $5.99</p>
+            <button>Add to Cart</button>
+        </div>
     </section>
 
-    <section id="contact">
+         <section id="contact">
         <h2>Contact Us</h2>
         <p>For reservations or inquiries, please contact us:</p>
-        <p>Email: info@example.com</p>
-        <p>Phone: 123-456-7890</p>
+        <p>Email: darjeelingcalling@gmail.com</p>
+        <p>Phone: 237753264</p>
     </section>
+   
+
 
     <footer>
-        &copy; 2024 Restaurant Name. All rights reserved.
+        &copy; 2024 Darjeeling Calling. All rights reserved.
     </footer>
 </body>
 </html>
